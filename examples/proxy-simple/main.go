@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/carterjones/signalr"
-	"github.com/carterjones/signalr/hubs"
+	signalr "github.com/tacoo/signalr_v2"
+	"github.com/tacoo/signalr_v2/hubs"
 )
 
 func main() {

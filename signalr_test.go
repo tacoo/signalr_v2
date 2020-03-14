@@ -17,9 +17,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/carterjones/signalr"
-	"github.com/carterjones/signalr/hubs"
 	"github.com/gorilla/websocket"
+	signalr "github.com/tacoo/signalr_v2"
+	"github.com/tacoo/signalr_v2/hubs"
 )
 
 func ExampleClient_Run() {
